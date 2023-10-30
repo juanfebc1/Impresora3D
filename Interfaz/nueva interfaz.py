@@ -49,7 +49,7 @@ miFrame=Frame(root, width=904, height=508)
 
 miFrame.pack()
 
-Fondo=PhotoImage(file="3d.gif")
+Fondo=PhotoImage(file="3d.gif.jpg")
 Fondo1= Label(root, image=Fondo).place(x=0, y=0, relwidth=1, relheight=1)
 
 boton1= Button (root, text= "Opciones", command=root.iconify,bg="white",bd=5, fg="black", activebackground="white", relief= "sunken")
